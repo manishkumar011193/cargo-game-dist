@@ -1,0 +1,117 @@
+{
+	"lifetime": {
+	  "min": 0.25,
+	  "max": 0.85
+	},
+	"ease": [
+	  {
+		"s": 0,
+		"cp": 0.329,
+		"e": 0.548
+	  },
+	  {
+		"s": 0.548,
+		"cp": 0.767,
+		"e": 0.876
+	  },
+	  {
+		"s": 0.876,
+		"cp": 0.985,
+		"e": 1
+	  }
+	],
+	"frequency": 0.001,
+	"emitterLifetime": 0.15,
+	"maxParticles": 25,
+	"addAtBack": true,
+	"pos": {
+	  "x": 0,
+	  "y": 0
+	},
+	"behaviors": [
+	  {
+		"type": "alpha",
+		"config": {
+		  "alpha": {
+			"list": [
+			  {
+				"time": 0,
+				"value": 1
+			  },
+			  {
+				"time": 1,
+				"value": 0.5
+			  }
+			]
+		  }
+		}
+	  },
+	  {
+		"type": "moveSpeed",
+		"config": {
+		  "speed": {
+			"list": [
+			  {
+				"time": 0,
+				"value": 200
+			  },
+			  {
+				"time": 1,
+				"value": 0
+			  }
+			]
+		  },
+		  "minMult": 1
+		}
+	  },
+	  {
+		"type": "scale",
+		"config": {
+		  "scale": {
+			"list": [
+			  {
+				"time": 0,
+				"value": 0.5
+			  },
+			  {
+				"time": 1,
+				"value": 0.3
+			  }
+			]
+		  },
+		  "minMult": 1
+		}
+	  },
+	  {
+		"type": "color",
+		"config": {
+		  "color": {
+			"list": [
+			  {
+				"time": 0,
+				"value": "#fff700"
+			  },
+			  {
+				"time": 1,
+				"value": "#fff75c"
+			  }
+			]
+		  }
+		}
+	  },
+	  {
+		"type": "rotation",
+		"config": {
+		  "accel": 0,
+		  "minSpeed": 0,
+		  "maxSpeed": 200,
+		  "minStart": 0,
+		  "maxStart": 360
+		}
+	  },
+	  {
+		"type": "spawnPoint",
+		"config": {}
+	  }
+	]
+  }

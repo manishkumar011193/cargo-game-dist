@@ -1,0 +1,108 @@
+{
+    "lifetime": {
+      "min": 0.8,
+      "max": 1
+    },
+    "frequency": 0.12,
+    "emitterLifetime": -1,
+    "maxParticles": 1000,
+    "addAtBack": true,
+    "pos": {
+      "x": 0,
+      "y": 0
+    },
+    "behaviors": [
+      {
+        "type": "alpha",
+        "config": {
+          "alpha": {
+            "list": [
+              {
+                "time": 0,
+                "value": 0
+              },
+              {
+                "time": 0.35,
+                "value": 0.5
+              },
+              {
+                "time": 0.65,
+                "value": 1
+              },
+              {
+                "time": 1,
+                "value": 0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "scale",
+        "config": {
+          "scale": {
+            "list": [
+              {
+                "value": 1.2,
+                "time": 0
+              },
+              {
+                "value": 1,
+                "time": 0.35
+              },
+              {
+                "value": 0,
+                "time": 1
+              }
+            ],
+            "minMult": 0.6
+          }
+        }
+      },
+      {
+        "type": "rotationStatic",
+        "config": {
+             "min": -90,
+             "max": -90
+        }
+      },
+      {
+        "type": "moveSpeed",
+        "config": {
+            "speed": {
+                "list": [{
+                    "value": 200,
+                    "time": 0
+                },
+                {
+                    "value": 200,
+                    "time": 0.35
+                },
+                {
+                    "value": 500,
+                    "time": 1
+                }]
+            },
+            "minMult": 0.8
+        }
+      },
+      {
+        "type": "blendMode",
+        "config": {
+          "blendMode": "normal"
+        }
+      },
+      {
+        "type": "spawnShape",
+        "config": {
+          "type": "rect",
+          "data": {
+            "x": -75,
+            "y": -15,
+            "w": 150,
+            "h": 20
+          }
+        }
+      }
+    ]
+  }

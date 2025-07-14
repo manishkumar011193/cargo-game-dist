@@ -1,0 +1,155 @@
+{
+  "compressed": false,
+  "loadingScreen": {
+    "models": {},
+    "anims": {},
+    "jsons": {},
+    "materials": {},
+    "webfonts": {},
+    "svg": {},
+    "spines": {},
+    "sprites": {},
+    "videos": {},
+    "textures": {
+      "img_bg_loading": "assets\\loadingScreen\\textures\\img_bg_loading.png",
+      "img_icon": "assets\\loadingScreen\\textures\\img_icon.png",
+      "tex_bg_progress": "assets\\loadingScreen\\textures\\tex_bg_progress.png",
+      "tex_bg_progress_fill": "assets\\loadingScreen\\textures\\tex_bg_progress_fill.png"
+    }
+  },
+  "preload": {
+    "models": {},
+    "anims": {},
+    "materials": {},
+    "svg": {},
+    "spines": {},
+    "videos": {},
+    "webfonts": {
+      "Designer": "assets\\preload\\webfonts\\Designer.otf",
+      "Lato-Black": "assets\\preload\\webfonts\\Lato-Black.ttf"
+    },
+    "textures": {
+      "img_logo": "assets\\preload\\textures\\img_logo.png",
+      "ring1": "assets\\preload\\textures\\ring1.png",
+      "ring1_bot": "assets\\preload\\textures\\ring1_bot.png",
+      "ring2": "assets\\preload\\textures\\ring2.png",
+      "ring2_bot": "assets\\preload\\textures\\ring2_bot.png",
+      "spr_gameplay_bg": "assets\\preload\\textures\\spr_gameplay_bg.jpg",
+      "spr_ring_middle_2": "assets\\preload\\textures\\spr_ring_middle_2.png",
+      "spr_ring_middle": "assets\\preload\\textures\\spr_ring_middle.png",
+      "tex_rainbow": "assets\\preload\\textures\\tex_rainbow.jpg",
+      "tex_white": "assets\\preload\\textures\\tex_white.jpg",
+      "wall_bot": "assets\\preload\\textures\\wall_bot.png",
+      "wall_top": "assets\\preload\\textures\\wall_top.png"
+    },
+    "jsons": {
+      "arrow.json": {
+        "data": "assets\\preload\\jsons\\arrow.json",
+        "type": "no-inline"
+      },
+      "arrow_2.json": {
+        "data": "assets\\preload\\jsons\\arrow_2.json",
+        "type": "no-inline"
+      },
+      "arrow_3.json": {
+        "data": "assets\\preload\\jsons\\arrow_3.json",
+        "type": "no-inline"
+      },
+      "arrow_4.json": {
+        "data": "assets\\preload\\jsons\\arrow_4.json",
+        "type": "no-inline"
+      },
+      "arrow_5.json": {
+        "data": "assets\\preload\\jsons\\arrow_5.json",
+        "type": "no-inline"
+      },
+      "arrow_6.json": {
+        "data": "assets\\preload\\jsons\\arrow_6.json",
+        "type": "no-inline"
+      },
+      "blinkEffectConfig.json": {
+        "data": "assets\\preload\\jsons\\blinkEffectConfig.json",
+        "type": "no-inline"
+      },
+      "circleParticle.json": {
+        "data": "assets\\preload\\jsons\\circleParticle.json",
+        "type": "no-inline"
+      },
+      "dangerousEmitter.json": {
+        "data": "assets\\preload\\jsons\\dangerousEmitter.json",
+        "type": "no-inline"
+      },
+      "emitter.json": {
+        "data": "assets\\preload\\jsons\\emitter.json",
+        "type": "no-inline"
+      },
+      "emitter_coin.json": {
+        "data": "assets\\preload\\jsons\\emitter_coin.json",
+        "type": "no-inline"
+      },
+      "emitter_magnet.json": {
+        "data": "assets\\preload\\jsons\\emitter_magnet.json",
+        "type": "no-inline"
+      },
+      "explode.json": {
+        "data": "assets\\preload\\jsons\\explode.json",
+        "type": "no-inline"
+      },
+      "explode2.json": {
+        "data": "assets\\preload\\jsons\\explode2.json",
+        "type": "no-inline"
+      },
+      "explore3.json": {
+        "data": "assets\\preload\\jsons\\explore3.json",
+        "type": "no-inline"
+      },
+      "explore_coin.json": {
+        "data": "assets\\preload\\jsons\\explore_coin.json",
+        "type": "no-inline"
+      },
+      "fire_1.json": {
+        "data": "assets\\preload\\jsons\\fire_1.json",
+        "type": "no-inline"
+      },
+      "fire_2.json": {
+        "data": "assets\\preload\\jsons\\fire_2.json",
+        "type": "no-inline"
+      },
+      "fire_3.json": {
+        "data": "assets\\preload\\jsons\\fire_3.json",
+        "type": "no-inline"
+      },
+      "levelData.json": {
+        "data": "assets\\preload\\jsons\\levelData.json",
+        "type": "no-inline"
+      },
+      "mergeParticle.json": {
+        "data": "assets\\preload\\jsons\\mergeParticle.json",
+        "type": "no-inline"
+      },
+      "sparkEmitterConfig.json": {
+        "data": "assets\\preload\\jsons\\sparkEmitterConfig.json",
+        "type": "no-inline"
+      },
+      "starEmitter.json": {
+        "data": "assets\\preload\\jsons\\starEmitter.json",
+        "type": "no-inline"
+      },
+      "starExplodeEmitter.json": {
+        "data": "assets\\preload\\jsons\\starExplodeEmitter.json",
+        "type": "no-inline"
+      }
+    },
+    "audio": {
+      "data": "assets\\preload\\audios\\audiosprite.json",
+      "audio": "assets\\preload\\audios\\audiosprite.mp3"
+    },
+    "sprites": {
+      "sprites-0": {
+        "data": "assets\\preload\\sprites\\sprites-0.json",
+        "tex": "assets\\preload\\sprites\\sprites-0.webp",
+        "type": "atlas"
+      }
+    }
+  }
+}
